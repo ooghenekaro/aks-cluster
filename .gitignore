@@ -1,0 +1,37 @@
+# Local development files
+.env
+.dockerignore
+
+# Kubernetes manifests and configuration
+**/*.yaml
+**/*.yml
+**/*.json
+**/*.env
+**/*.env.*
+**/*.pem
+**/*.key
+**/*.crt
+
+# Azure-specific files
+.azure/
+.microsoft/
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Logs and debugging files
+*.log
+*.log.*
+logs/
+debug/
+
+# Dependency management
+node_modules/
+vendor/
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
