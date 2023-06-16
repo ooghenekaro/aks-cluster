@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RESOURCE_GROUP_NAME=tfstate
-STORAGE_ACCOUNT_NAME=hiya$RANDOM
+STORAGE_ACCOUNT_NAME=cookies$RANDOM
 CONTAINER_NAME=karocontainer
 
 # Create resource group
